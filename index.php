@@ -96,7 +96,7 @@
     </div>
 </section>
 
-<section id="preview" class="download-section content-section text-center" style="height: 590px;">
+<section id="preview" class="preview-section content-section text-center" style="height: 590px;">
     <div class="container">
         <h2>Preview</h2>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="col-lg-8 mx-auto">
             <h2>Download</h2>
-            <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Developer
+            <a href="https://codeload.github.com/freshstudio/Toshinou/zip/master" class="btn btn-default btn-lg">Developer
                 version [GitHub]</a></br>
             <p>Donate to me</p>
         </div>
@@ -184,7 +184,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://github.com/" class="btn btn-default btn-lg">
+                        <a href="https://github.com/freshstudio" class="btn btn-default btn-lg">
                             <i class="fa fa-github fa-fw"></i>
                             <span class="network-name">Github</span>
                         </a>
