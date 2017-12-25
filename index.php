@@ -50,6 +50,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#download">Download</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -177,24 +180,24 @@
             <div class="col-lg-8 mx-auto">
                 <h2>Contact Toshinou</h2>
                 <ul class="list-inline banner-social-buttons">
-                    <li class="list-inline-item">
+                    <!--<li class="list-inline-item">
                         <a href="https://twitter.com/" class="btn btn-default btn-lg">
                             <i class="fa fa-twitter fa-fw"></i>
                             <span class="network-name">Twitter</span>
                         </a>
-                    </li>
+                    </li>-->
                     <li class="list-inline-item">
                         <a href="https://github.com/freshstudio" class="btn btn-default btn-lg">
                             <i class="fa fa-github fa-fw"></i>
                             <span class="network-name">Github</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+                    <!--<li class="list-inline-item">
                         <a href="https://plus.google.com/" class="btn btn-default btn-lg">
                             <i class="fa fa-google-plus fa-fw"></i>
                             <span class="network-name">Google+</span>
                         </a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>
