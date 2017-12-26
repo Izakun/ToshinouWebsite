@@ -181,6 +181,16 @@ a:focus, a:hover {
         outline: none;
         background-color: #42DCA3; }
 
+    .btn-donate {
+        color: #e74c3c;
+        border: 1px solid #e74c3c;
+        background-color: transparent; }
+    .btn-donate:focus, .btn-donate:hover {
+        color: black;
+        border: 1px solid #e74c3c;
+        outline: none;
+        background-color: #e74c3c; }
+
     ul.banner-social-buttons {
         margin-top: 0; }
     @media (max-width: 1199px) {

@@ -167,8 +167,12 @@
         <div class="col-lg-8 mx-auto">
             <h2>Download</h2>
             <a href="https://codeload.github.com/freshstudio/Toshinou/zip/master" class="btn btn-default btn-lg">Developer
-                version [GitHub]</a></br></br>
-            <p><a>Donate to me</a></p>
+                version [GitHub]</a>
+            <p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="96JUUQZFADTPW">
+                <input type="submit" class="btn btn-donate btn-lg" value="Donate me">
+            </form></p>
         </div>
     </div>
 </section>
