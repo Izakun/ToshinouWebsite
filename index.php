@@ -45,13 +45,13 @@
                     <a class="nav-link js-scroll-trigger" href="#preview">Preview</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#tuto">Tutoriel</a>
+                    <a class="nav-link js-scroll-trigger" href="#tuto">Tutorial</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#download">Download</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Discord</a>
                 </li>
             </ul>
         </div>
@@ -99,7 +99,7 @@
     </div>
 </section>
 
-<section id="preview" class="preview-section content-section text-center" style="height: 590px;">
+<section id="preview" class="mask preview-section content-section text-center" style="height: 590px;">
     <div class="container">
         <h2>Preview</h2>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -140,7 +140,7 @@
 
 <section id="tuto" class="content-section text-center">
     <div class="container">
-        <h2>Tutoriel</h2>
+        <h2>Tutorial</h2>
         <script>
             // "Windows"    for all versions of Windows
             // "MacOS"      for all versions of Macintosh OS
@@ -162,13 +162,13 @@
 </section>
 
 <!-- Download Section -->
-<section id="download" class="download-section content-section text-center">
+<section id="download" class="mask download-section content-section text-center">
     <div class="container">
         <div class="col-lg-8 mx-auto">
             <h2>Download</h2>
             <a href="https://codeload.github.com/freshstudio/Toshinou/zip/master" class="btn btn-default btn-lg">Developer
-                version [GitHub]</a></br>
-            <p>Donate to me</p>
+                version [GitHub]</a></br></br>
+            <p><a>Donate to me</a></p>
         </div>
     </div>
 </section>
@@ -178,27 +178,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h2>Contact Toshinou</h2>
+                <h2>join our discord server</h2>
                 <ul class="list-inline banner-social-buttons">
-                    <!--<li class="list-inline-item">
-                        <a href="https://twitter.com/" class="btn btn-default btn-lg">
-                            <i class="fa fa-twitter fa-fw"></i>
-                            <span class="network-name">Twitter</span>
-                        </a>
-                    </li>-->
-                    <li class="list-inline-item">
+                    <!--<<li class="list-inline-item">
                         <a href="https://github.com/freshstudio" class="btn btn-default btn-lg">
                             <i class="fa fa-github fa-fw"></i>
                             <span class="network-name">Github</span>
                         </a>
-                    </li>
-                    <!--<li class="list-inline-item">
-                        <a href="https://plus.google.com/" class="btn btn-default btn-lg">
-                            <i class="fa fa-google-plus fa-fw"></i>
-                            <span class="network-name">Google+</span>
-                        </a>
                     </li>-->
                 </ul>
+                <iframe src="https://discordapp.com/widget?id=367364584941813761&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
             </div>
         </div>
     </div>

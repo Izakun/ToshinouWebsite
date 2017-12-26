@@ -221,3 +221,7 @@ a:focus, a:hover {
 
     hr.style2 {
         border-top: 3px double #8c8b8b;}}
+.mask {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 2%, black 10%, black 90%, transparent 98%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+}
