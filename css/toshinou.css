@@ -1,3 +1,14 @@
+/*
+Author :
+    Izakun
+Contact :
+    GitHub : https://github.com/Izakun
+    Skype : acarrer44
+    Discord : Dudule100#7856
+Description :
+    Desing created for the purpose of freshstudio for the toshinou bot.
+*/
+
 body {
     font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: relative;
@@ -141,7 +152,7 @@ a:focus, a:hover {
 
 .download-section {
     color: white;
-    background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+    background: url("../img/download.jpg") no-repeat center center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -150,7 +161,7 @@ a:focus, a:hover {
 
 .preview-section {
     color: white;
-    background: url("../img/downloads-bg1.jpg") no-repeat center center scroll;
+    background: url("../img/preview.jpg") no-repeat center center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -229,9 +240,10 @@ a:focus, a:hover {
     body {
         -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
 
-    hr.style2 {
+    hr.separator {
         border-top: 3px double #8c8b8b;}}
+
 .mask {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 2%, black 10%, black 90%, transparent 98%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
     mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
 }

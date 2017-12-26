@@ -1,3 +1,13 @@
+<!--
+Author :
+    Izakun
+Contact :
+    GitHub : https://github.com/Izakun
+    Skype : acarrer44
+    Discord : Dudule100#7856
+Description :
+    Website created for the purpose of freshstudio for the toshinou bot.
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +75,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h1 class="brand-heading">Toshinou</h1>
-                    <p class="intro-text">Cross-platform, open-source DarkOrbit bot</p>
+                    <p class="intro-text">Cross-platform, open-source DarkOrbit bot</br>Available on Windows, Linux, MacOS</p>
                     <a href="#features" class="btn btn-circle js-scroll-trigger">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -79,19 +89,20 @@
 <section id="features" class="content-section text-center">
     <div class="container">
         <h2>Features</h2>
-        <hr class="style2">
+        <!-- Uncomment the flollow line if you need a separator -->
+        <!--<hr class="separator">-->
         <div class="row">
             <div class="col-lg-4 mx-auto">
-                <h3>Collector</h3>
+                <h4>Collector</h4>
                 <p>Let the bot collect boxes for you. Includes event boxes, materials and standard boxes.</p>
             </div>
             <div class="col-lg-4 mx-auto">
-                <h3>Autolock</h3>
+                <h4>Autolock</h4>
                 <p>Do you aim really bad? Want to select your enemy with one click? The autolock feature is made for
                     you!</p>
             </div>
             <div class="col-lg-4 mx-auto">
-                <h3>NPC killer</h3>
+                <h4>NPC killer</h4>
                 <p>Tired of killing NPCs? Let the intelligent NPC Killer do it for you!</p>
             </div>
         </div>
@@ -99,6 +110,7 @@
     </div>
 </section>
 
+<!-- Preview Section -->
 <section id="preview" class="mask preview-section content-section text-center" style="height: 590px;">
     <div class="container">
         <h2>Preview</h2>
@@ -138,6 +150,7 @@
     </div>
 </section>
 
+<!-- Tutorial Section -->
 <section id="tuto" class="content-section text-center">
     <div class="container">
         <h2>Tutorial</h2>
@@ -168,11 +181,13 @@
             <h2>Download</h2>
             <a href="https://codeload.github.com/freshstudio/Toshinou/zip/master" class="btn btn-default btn-lg">Developer
                 version [GitHub]</a>
-            <p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <p>
+            <form id="" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="96JUUQZFADTPW">
-                <input type="submit" class="btn btn-donate btn-lg" value="Donate me">
-            </form></p>
+                <a href="javascript:void(0);" class="btn btn-donate btn-lg" onclick="$(this).closest('form').submit()">Donate me</a>
+            </form>
+            </p>
         </div>
     </div>
 </section>
@@ -200,7 +215,12 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Copyright &copy; Toshinou 2017</p>
+        <p>
+            <script type="text/javascript">
+                var ladate=new Date()
+                document.write("Copyright © Toshinou 2017 - "+ladate.getFullYear())
+            </script>
+        </p>
     </div>
 </footer>
 
@@ -211,11 +231,8 @@
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
 <!-- Custom scripts for this template -->
-<script src="js/grayscale.min.js"></script>
+<script src="js/toshinou.min.js"></script>
 
 </body>
 
