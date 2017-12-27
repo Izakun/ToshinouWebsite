@@ -146,24 +146,6 @@ a:focus, a:hover {
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
 
-.btn-circle1 {
-    font-size: 13px;
-    width: 36px;
-    height: 36px;
-    margin-top: 5px;
-    line-height: 20px;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background 0.3s ease-in-out;
-    color: white;
-    border: 2px solid white;
-    border-radius: 100% !important;
-    background: transparent; }
-.btn-circle1:focus, .btn-circle1:hover {
-    color: white;
-    outline: none;
-    background: rgba(255, 255, 255, 0.1); }
-
 .content-section {
     padding-top: 150px;
     padding-bottom: 150px; }
