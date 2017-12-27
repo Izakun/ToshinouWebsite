@@ -153,24 +153,49 @@ Description :
 <!-- Tutorial Section -->
 <section id="tuto" class="content-section text-center">
     <div class="container">
-        <h2>Tutorial</h2>
-        <script>
-            // "Windows"    for all versions of Windows
-            // "MacOS"      for all versions of Macintosh OS
-            // "Linux"      for all versions of Linux
-            // "UNIX"       for all other UNIX flavors
-            // "Unknown OS" indicates failure to detect the OS
-            var OSName="Unknown OS";
-            if (navigator.appVersion.indexOf("Win")!=-1) // windows
-                OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sZOrfItRd2w\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
-            if (navigator.appVersion.indexOf("Mac")!=-1) // mac
-                OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
-            if (navigator.appVersion.indexOf("X11")!=-1) // unix
-                OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
-            if (navigator.appVersion.indexOf("Linux")!=-1) // linux
-                OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
-            document.write(OSName);
-        </script>
+        <div class="col-lg-8 mx-auto">
+            <h2>Tutorial</h2>
+            <!--<script>
+                // "Windows"    for all versions of Windows
+                // "MacOS"      for all versions of Macintosh OS
+                // "Linux"      for all versions of Linux
+                // "UNIX"       for all other UNIX flavors
+                // "Unknown OS" indicates failure to detect the OS
+                var OSName="Unknown OS";
+                if (navigator.appVersion.indexOf("Win")!=-1) // windows
+                    OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sZOrfItRd2w\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                if (navigator.appVersion.indexOf("Mac")!=-1) // mac
+                    OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                if (navigator.appVersion.indexOf("X11")!=-1) // unix
+                    OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                if (navigator.appVersion.indexOf("Linux")!=-1) // linux
+                    OSName="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                else
+                    OSName="To see the tutorial, please go on a computer";
+                document.write(OSName);
+            </script>-->
+            <script>
+                    var userAgent = window.navigator.userAgent,
+                        platform = window.navigator.platform,
+                        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+                        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+                        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+                        os = null;
+
+                    if (macosPlatforms.indexOf(platform) !== -1) {
+                        os = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                    } else if (iosPlatforms.indexOf(platform) !== -1) {
+                        os = "To see the tutorial, please go on a computer";
+                    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+                        os = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sZOrfItRd2w\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                    } else if (/Android/.test(userAgent)) {
+                        os = "To see the tutorial, please go on a computer";
+                    } else if (!os && /Linux/.test(platform)) {
+                        os = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_fqCRLTjcQ\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>";
+                    }
+                    document.write(os);
+            </script>
+        </div>
     </div>
 </section>
 
